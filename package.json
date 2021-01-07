@@ -1,0 +1,29 @@
+{
+  "name": "media-discord-bot",
+  "version": "1.0.0",
+  "description": "Discord bot for commands related to Organize and Store Movies, Tv Shows and Anime related details for viewing parties",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --experimental-worker bot.js",
+    "end": ". exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mazcorp/Discord-Media-Bot.git"
+  },
+  "author": "Darth_Maz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mazcorp/Discord-Media-Bot/issues"
+  },
+  "homepage": "https://github.com/mazcorp/Discord-Media-Bot#readme",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "moment": "^2.29.1",
+    "mongoose": "^5.11.10",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.17.0"
+  }
+}
